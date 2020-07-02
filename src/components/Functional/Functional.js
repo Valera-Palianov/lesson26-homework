@@ -1,11 +1,11 @@
 import React from "react";
-import __button from "./__button/__button"
+import Button from "./__button/__button"
 
-function Functional(props) {
+function Functional() {
     return(
         <div className='functional'>
             <h2>Функциональные компоненты:</h2>
-            <__button initCount={2}></__button>
+            <Button initCount={2} />
         </div>
     )
 }

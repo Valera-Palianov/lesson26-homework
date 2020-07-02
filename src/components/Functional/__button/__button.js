@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-function __button({initCount}) {
+function Button({initCount}) {
     initCount = initCount ? initCount : 0
     const [count, setCount] = useState(initCount);
     const onClick = () => {
@@ -14,4 +14,4 @@ function __button({initCount}) {
     )
 }
 
-export default __button
+export default Button

@@ -1,6 +1,6 @@
 import React from "react";
 
-class __button extends React.PureComponent{
+class Button extends React.PureComponent{
 
     constructor(props) {
         super(props)
@@ -27,4 +27,4 @@ class __button extends React.PureComponent{
     }
 }
 
-export default __button
+export default Button
