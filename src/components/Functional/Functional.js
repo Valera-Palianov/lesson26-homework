@@ -9,7 +9,7 @@ function Functional() {
             <h2>Функциональные компоненты:</h2>
             <Button initCount={2} />
             <Textarea limiter={12}/>
-            <Timer />
+            <Timer sec={8}/>
         </div>
     )
 }

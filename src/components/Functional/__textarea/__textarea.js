@@ -16,7 +16,7 @@ function Textarea({limiter}) {
 
     return(
         <div className="functional__textarea container__item">
-            Текстовая область с ограничителем:<br/>
+            <b>Текстовая область с ограничителем:</b><br/>
             <textarea onChange={onChange} value={value}/><br />
             {length}/{limiter}
         </div>

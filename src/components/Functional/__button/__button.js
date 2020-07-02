@@ -9,7 +9,7 @@ function Button({initCount}) {
 
     return(
         <div className="functional__button container__item">
-            Кнопка:<br/>
+            <b>Кнопка:</b><br/>
             <button onClick={onClick}>Вы нажали на меня {count} раз</button>
         </div>
     )

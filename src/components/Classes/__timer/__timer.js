@@ -41,7 +41,7 @@ class Timer extends React.Component{
         let status = this.state.done ? "Done!" : "Ticking..."
         return(
             <div className="class__timer container__item">
-                Таймер:<br/>
+                <b>Таймер:</b><br/>
                 {this.state.current}/{this.state.seconds}<br/>
                 {status}
             </div>

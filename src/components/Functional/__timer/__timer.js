@@ -25,7 +25,7 @@ function Timer({sec}) {
     let status = done ? "Done!" : "Ticking..."
     return(
         <div className="functional__timer container__item">
-            Таймер:<br/>
+            <b>Таймер:</b><br/>
             {current}/{seconds}<br/>
             {status}
         </div>

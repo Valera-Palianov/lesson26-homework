@@ -1,7 +1,12 @@
 .App {
   padding: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
 }
 
-.container__item {
-  margin-bottom: 15px;
+.container__item:not(:last-child) {
+  border-bottom: 1px solid lightgrey;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
 }

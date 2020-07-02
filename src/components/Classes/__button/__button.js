@@ -21,7 +21,7 @@ class Button extends React.PureComponent{
     render() {
         return(
             <div className="classes__button container__item">
-                Кнопка:<br/>
+                <b>Кнопка:</b><br/>
                 <button onClick={this.onClick}>Вы нажали на меня {this.state.count} раз</button>
             </div>
         )

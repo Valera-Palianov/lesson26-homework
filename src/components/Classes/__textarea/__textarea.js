@@ -26,7 +26,7 @@ class Textarea extends React.PureComponent{
     render() {
         return(
             <div className="class__textarea container__item">
-                Текстовая область с ограничителем:<br/>
+                <b>Текстовая область с ограничителем:</b><br/>
                 <textarea onChange={this.onChange} value={this.state.value}/><br />
                 {this.state.length}/{this.state.limiter}
             </div>
