@@ -8,18 +8,12 @@ function Timer({sec}) {
     const [current, setCurrent] = useState(0)
 
     useEffect(() => {
-        const intervalId = setInterval(() => {
-            if(current === seconds) {
-                clearInterval(intervalId)
-            } else {
+        setTimeout(() => {
+            if(current !== seconds) {
                 if(current === seconds - 1) {setDone(true)}
                 setCurrent(current + 1)
             }
         }, 1000);
-
-        return () => {
-            clearInterval(intervalId)
-        }
     })
 
     let status = done ? "Done!" : "Ticking..."
